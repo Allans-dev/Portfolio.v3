@@ -1,0 +1,427 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Allan Cheung: a passionate front-end web developer and his portfolio showcasing his achievements with javascript.">
+    <meta name="keywords" content="portfolio, Allan Cheung, front end web development, UI">
+    <meta property="og:image" content="/imgs/ogimg.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="/CSS/style.css">
+    <link type="text/css" rel="stylesheet" href="/CSS/animate.css">
+    <link type="text/css" rel="stylesheet" href="/CSS/queries.css">
+    <script src="https://use.fontawesome.com/8c0af7375f.js"></script>
+   
+    <title>Allan Cheung: Front-End Web Development Portfolio</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/icons/favicons/manifest.json">
+    <link rel="mask-icon" href="/icons/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/icons/favicons/favicon.ico">
+    <meta name="msapplication-config" content="/icons/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+     </head>
+    <body>
+
+    <header id="home">
+
+        <nav>
+        <div class="row">
+            <p class="text-icon" >Combining Langauge, Design, and Logic</p>
+            <ul class="main-nav">
+            <li><a class="skills-nav" href="#">skills</a></li>
+            <li><a class="portfolio-nav" href="#">portfolio</a></li>
+            <li><a class="about-me-nav" href="#">about me</a></li>
+            <li><a class="contact-nav" href="#">contact</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <nav class="sticky">
+            <div class="bars"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <div class="cross"><i class="fa fa-times" aria-hidden="true"></i></div>
+            <div class="side-bar">
+                <ul>
+                    <li><a href="#" class="home-nav"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="skills-nav"><i class="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="portfolio-nav"><i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="about-me-nav"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="contact-nav"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="pitch-text-box">
+            <h1 class="h1Top">The beginning of a</h1>
+            <h1 class="typer typer-stop h1Mid" data-delay="100" data-delim= ":" data-words="Beautiful:Intelligent:Sustainable:Innovative:Accessible:Impactful"></h1>
+            <h1 class="h1Bot">website</h1>
+        </div>
+
+        <a href="#" id="title" class="title"><span class="name">Allan Cheung</span>Front-End Web Development</a>
+        
+        <a href="https://github.com/Allans-dev/ReactReduxWeather" target="_blank" class="currentProject"><div>Current Project</div></a>
+
+    </header>
+
+    <section class="skills" id="skills">
+        <div class="row">
+            <div id="skills-waypoint">
+                <img src="imgs/HTML5.png" alt="HTML5 logo">
+                <img src="imgs/CSS.3.png" alt="CSS3 logo">
+                <img src="imgs/Javascript.png" alt="javascript logo">
+                <img src="imgs/bootstrap-wordmark.png" alt="Bootstrap logo">
+                <img src="imgs/jQuery.gif" alt="jquery logo">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="portfolio" id="portfolio">
+
+        <ul class="project-showcase clearfix">
+            <li id="simon-icon">
+                <figure class="project">
+                    <img src="imgs/simon-icon.png" alt="Simon Game icon">
+                    </figure>
+                </li>
+            <li id="tictactoe-icon">
+                <figure class="project">
+                    <img src="imgs/tictactoe-blue-icon.png" alt="Tic Tac Toe icon">
+                    </figure>
+                </li>
+            <li id="wiki-icon">
+                <figure class="project">
+                    <img src="imgs/wiki-icon.png" alt="Wikipedia Searcher icon">
+                    </figure>
+                </li>
+            <li id="calculator-icon">
+                <figure class="project">
+                    <img src="imgs/Cal-icon.png" alt="Calculator icon">
+                    </figure>
+                </li>
+        </ul>
+
+        <div id="simon-des" class="project-des">
+            <div class="row">
+                <div class="col-md-7 col-sm-7">
+                    <h3>Simon Game</h3>
+                </div>
+                <div class="col-md-5 col-sm-5">
+                    <a class="FCC-link" href="https://www.freecodecamp.com/challenges/build-a-simon-game">Free Code Camp<br>Advanced Front End Project</a>
+                </div>
+            </div>
+            <div class="row">
+                <p>The Simon memory game is an online take of 1980's game of the same name. The web project aims to replicate the functions and aesthetics of the original. After starting the program a series of flashes with accompanying sounds reveal a pattern for the user to memorize. The user then inputs the pattern by pressing the buttons and if correct, is shown a new pattern with an additional step. A wrong move will be notified by a sound and the pattern is repeated. If played on hard mode, the pattern restarts from the first stage. Reaching 20 steps of the pattern beats the game. Good Luck!</p>
+
+                <p>The most difficult part of this challenge was implementing the sound and flashes of the buttons in a sequence without overlapping and not resorting to an unscalable timeout function. In the end I chose to implement a switch function inside a for loop to ensure that each loop designates a value to each switch and consequent timeout function to ensure a multiple was assigned to each time value. Previous attempts showed timeout functions do not hold variables passed onto them while executing a delay.</p>
+
+                <p>Once syntax for the pattern was established adding the timeout function for the button flashes was simple enough. I found that combining the two functions was easier to implement than triggering seperate color flashing functions.</p>
+                
+                <p>To start the game click the on button before pressing start.</p>
+
+                <div class="project-btn-box">
+                    <i class="fa fa-chevron-up fa-2x up" aria-hidden="true"></i>
+                    <img src="imgs/line%20break%20left%20white.png" alt="line-break-left">
+                    <a href="simon" target="_blank" class="project-btn">To Project</a>
+                    <img src="imgs/line%20break%20right%20white.png" alt="line-break-right">
+                    <a href="https://github.com/Allans-dev/Simon-Game" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="tictactoe-des" class="project-des">
+            <div class="row">
+                <div class="col-md-7 col-sm-7">
+                    <h3>Tic Tac Toe</h3>
+                </div>
+                <div class="col-md-5 col-sm-5">
+                    <a class="FCC-link" href="https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game">Free Code Camp<br>Advanced Front End Project</a>
+                </div>
+            </div>
+            <div class="row">
+                <p>The web project is an imitation of the popular tic tac toe game with Jquery animations and bootstrap style grid. The page allows the user to choose which character they wish to play that also determines the background.</p>
+
+                <p>The AI required research behind winning strategies for the game and implementing required many lines of if statements. The original idea was to use a switch statement to determine which action the opponent will take based on the previous move by the user. This approach was useful in the beginnning but there were limitations when a winning move could be made by the AI regardless of where the user moves.</p>
+
+                <p>The project was an interesting challenge because it required a lot of repitition and attention to detail. Winning against the AI was not a positive experience in this exercise.</p>
+
+                <div class="project-btn-box">
+                    <i class="fa fa-chevron-up fa-2x up" aria-hidden="true"></i>
+                    <img src="imgs/line%20break%20left%20white.png" alt="line-break-left">
+                    <a href="tictactoe" target="_blank" class="project-btn">To Project</a>
+                    <img src="imgs/line%20break%20right%20white.png" alt="line-break-right">
+                    <a href="https://github.com/Allans-dev/Tic-Tac-Toe" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="wiki-des" class="project-des">
+          <div class="row">
+              <div class="col-md-7 col-sm-7">
+                <h3>Wikipedia Searcher</h3>
+              </div>
+              <div class="col-md-5 col-sm-5">
+                <a class="FCC-link" href="https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer">Free Code Camp<br>Intermediate Front End Project</a>
+              </div>
+            </div>
+            <div class="row">
+                <p>Wikipedia Searcher is a web app used to search the wikipedia database using an API. The design and animation takes advantage of animate().</p>
+
+                <p>The previous verson of this site involved different design textures that didn't make to the final version. The number of results altered the way the background image was positioned and was ultimately scrapped for a smooth design.</p>
+
+                <p>After creating the weather project this was an easier challenge but pushed my Jquery skills in handling more than one search result.</p>
+
+                <div class="project-btn-box">
+                    <i class="fa fa-chevron-up fa-2x up" aria-hidden="true"></i>
+                    <img src="imgs/line%20break%20left%20white.png" alt="line-break-left">
+                    <a href="wiki" target="_blank" class="project-btn">To Project</a>
+                    <img src="imgs/line%20break%20right%20white.png" alt="line-break-right">
+                    <a href="https://github.com/Allans-dev/Wikipedia-Viewer" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                </div>
+
+            </div>
+        </div>
+        
+        <div id="calculator-des" class="project-des">
+           <div class="row">
+               <div class="col-md-7 col-sm-7">
+                    <h3>Calculator</h3>
+               </div>
+               <div class="col-md-5 col-sm-5">
+                    <a class="FCC-link" href="https://www.freecodecamp.com/challenges/build-a-javascript-calculator">Free Code Camp<br>Advanced Front End Project</a>
+               </div>
+            </div>
+            <div class="row">
+                <p>A BODMAS calculator with a one line history and option to change from positive to negative. The user is able to chain all the basic operators in one line to calculate an answer that follows the order of operations.</p>
+
+                <p>The process is achieved by pushing the operators into two arrays, one containing all and one containing add and subtract. The numbers array are manipulated on it's array index before pushing them into another array reserved for numbers after the multiply and divide operators have performed their operations. The second arrays are then combined to give a final answer. </p>
+
+                <div class="project-btn-box">
+                    <i class="fa fa-chevron-up fa-2x up" aria-hidden="true"></i>
+                    <img src="imgs/line%20break%20left%20white.png" alt="line-break-left">
+                    <a href="calculator" target="_blank" class="project-btn">To Project</a>
+                    <img src="imgs/line%20break%20right%20white.png" alt="line-break-right">
+                    <a href="https://github.com/Allans-dev/javascript-calculator" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about-me" id="about-me">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div id="me">
+                    <div class="row">
+                        <h2>About me</h2>
+                    </div>
+
+                    <div class="row">
+                        <figure class="photo-me">
+                            <img src="imgs/me-formal-min.jpg" alt="me">
+                        </figure>
+                    </div>
+
+                    <div class="row">
+                        <div class="about">
+                            <p>A front-end web developer with a B. Property Economics and property industry experience.</p>
+                            <p>Shifting from physical property to intellectual property. In the end I just want to develop.</p>
+                            <p>My goal is to combine language, design, and logic to create a complete browsing experience.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+              <div id="timeline-box">
+                <div id="timeline">
+
+                    <div id="final-line"></div>
+                    <div id="future-node" class="final-node">
+                        <div id="future">
+                            <p>
+                            With this Website<br>
+                            I start a new chapter in my Life<br>
+                            with skills I have learnt<br>
+                            to ideas that inspire me<br>
+                            I am Ready<br>
+                            <span class="waiting">The Future is Waiting...</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="weird-box" class="time-box">
+                        <div id="weird-node" class="node"></div>
+                        <div id="weird-line" class="line"></div>
+                        <div id="weird" class="history"><a target="_blank" href="https://www.udemy.com/react-redux/learn/v4/overview">Modern React with Redux, Udemy</a></div>
+                    </div>
+
+                    <div id="htmlcss-box" class="time-box">
+                        <div id="htmlcss-node" class="node"></div>
+                        <div id="htmlcss-line" class="line"></div>
+                        <div id="htmlcss" class="history"><a target="_blank" href="https://www.udemy.com/understand-javascript/learn/v4/overview">Javascript: Understanding the Weird Parts, Udemy</a></div>
+                    </div>
+
+                    <div id="FCC-box" class="time-box">
+                        <div id="FCC-node" class="node"></div>
+                        <div id="FCC-line" class="line"></div>
+                        <div id="FCC" class="history"><a target="_blank" href="https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/learn/v4/overview">Build Responsive Real World Websites, Udemy</a></div>
+                    </div>
+
+                    <div id="compliance-box" class="time-box">
+                        <div id="compliance-node" class="node"></div>
+                        <div id="compliance-line" class="line"></div>
+                        <div id="compliance" class="history"><a target="_blank" href="https://www.freecodecamp.com/allans-dev">Front End Development, Free Code Camp</a></div>
+                    </div>
+
+                    <div id="resident-box" class="time-box">
+                        <div id="resident-node" class="node"></div>
+                        <div id="resident-line" class="line"></div>
+                        <div id="resident" class="history"><a target="_blank" href="http://www.whelanproperty.com.au/">Assistant Compliance Officer, Whelan Property Group</a></div>
+                    </div>
+
+                    <div id="uni-box" class="time-box">
+                        <div id="uni-node" class="node"></div>
+                        <div id="uni-line" class="line"></div>
+                        <div id="uni" class="history"><a target="_blank" href="http://urbanest.com.au/sydney/">Resident Assistant, Urbanest (student accommodation)</a></div>
+                    </div>
+
+                    <div id="high-box" class="time-box">
+                        <div id="high-node" class="node"></div>
+                        <div id="high-line" class="line"></div>
+                        <div id="high" class="history"><a target="_blank" href="https://www.htw-berlin.de/en/university/">Exchange, Berlin University of Applied Sciences</a></div>
+                    </div>
+
+                    <div id="primary-box" class="time-box">
+                        <div id="primary-node" class="node"></div>
+                        <div id="primary-line" class="line"></div>
+                        <div id="primary" class="history"><a target="_blank" href="http://handbook.uts.edu.au/courses/c10310.html">B. Property Economics, University of Technology Sydney</a></div>
+                    </div>
+
+                </div>
+              </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <div class="row">
+        <h2>Contact</h2>
+        </div>
+
+        <form method="post" action="send.php" class="contact-form">
+
+            <div class="row">
+                <div class="col-md-2 col-md-offset-4 col-sm-offset-4 col-sm-2">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 col-md-offset-4 col-sm-offset-4 col-sm-2">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 col-md-offset-4 col-sm-2 col-sm-offset-4">
+                    <label for="query-type">Message type</label>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <select name="query-type" id="query-type">
+                        <option value="front-end">Front-End Development</option>
+                        <option value="query" selected>General Query</option>
+                        <option value="freelance">Freelance</option>
+                        <option value="collab">Collaboration</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 col-md-offset-4 col-sm-2 col-sm-offset-4">
+                    <label for="message">Drop me a line</label>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <textarea name="message" id="message" placeholder="Your message"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-offset-6 col-md-2 col-sm-offset-6 col-sm-2">
+                    <input type="submit" value="Send">
+                </div>
+                
+            </div>
+
+        </form>
+        
+        <div class="row">
+            <div class="col-md-offset-6 col-md-3 col-sm-offset-6 col-sm-3">
+                <button class="cv-btn"><a href="CV-AllanCheung.pdf">Download CV</a></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col-md-6 col-center">
+                <p class="mission">Combining Language, Design, and Logic.</p>
+            </div>
+            <div class="col-md-6 col-center">
+                    <ul class="social-media">
+                        <li><a href="https://www.freecodecamp.com/allans-dev" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/al_che9/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/Allans-dev" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/allan-cheung-075b569a/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    </ul>
+
+                <p class="source"><a href="http://www.freepik.com/free-photos-vectors/background">Background image created by Valeria_aksakova - Freepik.com</a></p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <p>Copyright &copy; 2017 by Allan Cheung. All rights reserved.
+            </p>
+        </div>
+
+    </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="/javascript/typer.js"></script>
+        <script src="/javascript/jquery.waypoints.min.js"></script>
+        <script src="/javascript/javascript.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-98733281-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    </body>
+</html>

@@ -1,0 +1,162 @@
+
+/* 1024-1200 */
+@media only screen and (max-width: 1200px) {
+    
+    .row { 
+        padding: 0 2%;
+        width: 100%;
+    }
+    
+    .skills img { margin: 0 8px; }
+    
+    .about-col {margin: 0; }
+    
+    #timeline-box { width: 500px; }
+}
+
+/* 768-1023 */
+@media only screen and (max-width: 1023px) {
+    
+    #portfolio { padding: 0; }
+    
+    section { padding: 40px 0; }
+    
+    body, html { font-size: 18px; }
+    
+    .project-des img { width: 100px; }
+    
+    .photo-me { width: 180px; }
+    
+    .skills img {
+        max-width: 200px;
+        height: 112px;
+        margin: 15px 20px;
+    }
+    
+    .col-center {
+        margin: 0 auto;
+        float: none;
+    }
+    
+    .mission { 
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .social-media li{
+        float: none;
+        display: inline-block;
+    }
+    
+    .social-media {
+        margin: 0;
+        text-align: center;
+    }
+    
+    .social-media li:first-child { margin-left: 0; }
+    
+    .title { font-size: 110%; }
+    
+    .source a {
+        float: none;
+        margin: 5px auto;
+    }
+    
+    .pitch-text-box { width: 60%; }
+    
+    .h1Mid { top: 55%; }
+    
+}
+/* 481-767 */
+@media only screen and (max-width: 767px) {
+    
+    #timeline-box {
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
+    
+    #timeline { margin: 0 auto; }
+    
+    .history {
+        padding: 10px;
+        height: 40px;
+    }
+    
+    .project-des .col-md-5 { text-align: left; }
+    
+    .FCC-link:link,
+    .FCC-link:visited {
+    right: 5%;
+    margin-top: 0;
+}
+    
+    .pitch-text-box { width: 80%; }
+    
+    body, html { font-size: 16px; }
+    
+    .photo-me { width: 140px; }
+    
+    .main-nav li {
+    margin-left: 10px;
+}
+    
+    #title { 
+        font-size: 120%; 
+        left: 15%;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+    
+    .about { margin: 0 auto; }
+    
+    #future { font-size: 200%; }
+    
+    .contact h2 {
+        text-align: left;
+        margin-left: 40px;
+    }
+    
+    .contact-form input[type="submit"] { 
+        width: 150px; 
+        margin-bottom: 5px;
+    }
+ 
+    #about-me { padding-bottom: 0; }
+    
+    .currentProject:link,
+    .currentProject:visited { 
+        bottom: 2%;
+        right: 0;
+        left: 15%;
+        height: 50px;
+    }
+    
+    .currentProject div { margin: 2px }
+    
+}
+/* 0-500 */
+@media only screen and (max-width: 500px) {
+    
+    .about-me .row {
+        padding: 0;
+        width: 100%;
+        margin: 0 1px;
+    }
+    
+    #timeline-box {
+        left: -60px;
+        margin: 0;
+    }
+    
+    .pitch-text-box {
+        top: 40%;
+        height: 50%;
+}
+    
+    .main-nav,
+    .project-des img { display: none; }
+    #timeline-box { margin: 0; }
+}
+
