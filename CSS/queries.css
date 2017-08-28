@@ -12,6 +12,8 @@
     .about-col {margin: 0; }
     
     #timeline-box { width: 500px; }
+    
+    .earthAtNoon img { display: none; }
 }
 
 /* 768-1023 */
@@ -105,9 +107,7 @@
         left: 15%;
     }
     
-    h1 {
-        font-size: 32px;
-    }
+    h1 { font-size: 32px; }
     
     .about { margin: 0 auto; }
     
@@ -134,6 +134,10 @@
     }
     
     .currentProject div { margin: 2px }
+    
+    .earthAtNoon p {
+        margin-left: 50px;
+    }
     
 }
 /* 0-500 */
