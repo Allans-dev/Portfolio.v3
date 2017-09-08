@@ -13,7 +13,7 @@
     
     #timeline-box { width: 500px; }
     
-    .earthAtNoon img { display: none; }
+    .o-project i { display: none; }
 }
 
 /* 768-1023 */
@@ -135,13 +135,34 @@
     
     .currentProject div { margin: 2px }
     
-    .earthAtNoon p {
+    .o-project p {
         margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+    .projectTitle {
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .projectHeadline {
+        display: inline-block;
+        font-weight: 300;
+        font-size: 120%;
+        margin-left: 50px;
+        margin-top: 10px;
     }
     
 }
 /* 0-500 */
 @media only screen and (max-width: 500px) {
+    
+    .btn-container {
+        display: block;
+        position: relative;
+        text-align: center;
+        margin-top: 40px; 
+    }
     
     .about-me .row {
         padding: 0;

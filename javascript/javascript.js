@@ -149,7 +149,7 @@ PORTFOLIO
 $("#simon-icon").click(function () {
     if (document.querySelector('#simon-des').style.display === 'block') {
         $('#simon-des').slideUp();
-        $('html, body').animate({scrollTop: $('#portfolio').offset().top
+        $('html, body').animate({scrollTop: $('[id$=icon]').offset().top - 100
       }, 1000);
    }else {
         $("[id$=des]").slideUp();
@@ -164,7 +164,7 @@ $("#simon-icon").click(function () {
 $("#tictactoe-icon").click(function () {
     if (document.querySelector('#tictactoe-des').style.display === 'block') {
         $('#tictactoe-des').slideUp();
-        $('html, body').animate({scrollTop: $('#portfolio').offset().top
+        $('html, body').animate({scrollTop: $('[id$=icon]').offset().top - 100
       }, 1000);
     } else {
         $("[id$=des]").slideUp();
@@ -179,7 +179,7 @@ $("#tictactoe-icon").click(function () {
 $("#wiki-icon").click(function () {
     if (document.querySelector('#wiki-des').style.display === 'block') {
         $('#wiki-des').slideUp();
-        $('html, body').animate({scrollTop: $('#portfolio').offset().top
+        $('html, body').animate({scrollTop: $('[id$=icon]').offset().top - 100
       }, 1000);
     } else {
         $("[id$=des]").slideUp();
@@ -194,7 +194,7 @@ $("#wiki-icon").click(function () {
 $("#calculator-icon").click(function () {
     if (document.querySelector('#calculator-des').style.display === 'block') {
         $('#calculator-des').slideUp();
-        $('html, body').animate({scrollTop: $('#portfolio').offset().top
+        $('html, body').animate({scrollTop: $('[id$=icon]').offset().top - 100
       }, 1000);
     } else {
         $("[id$=des]").slideUp();
@@ -210,7 +210,7 @@ $("#calculator-icon").click(function () {
 
 $(".fa-chevron-up").click(function (){
     $("[id$=des]").slideUp();
-    $('html, body').animate({scrollTop: $('#portfolio').offset().top
+    $('html, body').animate({scrollTop: $('[id$=icon]').offset().top - 100
     }, 1000);
 });
 
