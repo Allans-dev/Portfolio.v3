@@ -7,3 +7,5 @@ https://github.com/Allans-dev/Portfolio.v2
 Goal is to refactor to include original React projects and to learn SASS.
 
 Work in Progress.
+
+If you see any inconsistencies please clear your cache and refresh the page.
