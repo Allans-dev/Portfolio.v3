@@ -290,6 +290,63 @@ h1 {
     margin: 0 25px;
 }
 
+.skill-animation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.circle-row{
+    text-align: center;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.circle {
+    position: relative;
+    display: inline-block;
+    height: 25vw;
+    width: 25vw;
+    border: 1px solid black;
+    border-radius: 50%;
+    line-height: 25vw;
+}
+
+.title-c {
+    height: 15vw;
+    width: 15vw;
+    line-height: 15vw;
+    vertical-align: 2.5vw;
+    margin-top: -2.5vw;
+}
+
+.browser-c {
+    margin: 0 -2.5vw -2.5vw 0;
+}
+
+.dev-c {
+    margin: 0 0 -2.5vw -2.5vw;
+}
+
+.fe-c, .db-c {
+    margin: -5vw;
+}
+
+.be-c {
+    margin-top: -5vw;
+}
+
+.skill-items {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: blue;
+    margin: inherit;
+}
+
 /*---------------------------------
   PORTFOLIO
 ---------------------------------*/
