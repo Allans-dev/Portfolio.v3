@@ -283,69 +283,158 @@ h1 {
     text-align: center;
 }
 
+/*
 .skills img {
     display: inline-block;
     max-width: 285px;
     height: 160px;
     margin: 0 25px;
 }
+*/
 
 .skill-animation{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto;
-    border: 1px solid black;
+/*    border: 1px solid black;*/
 }
 
 .circle-row{
     text-align: center;
     width: 100%;
-    border: 1px solid black;
+/*    border: 1px solid black;*/
 }
 
 .circle {
     position: relative;
     display: inline-block;
-    height: 25vw;
-    width: 25vw;
+    height: 20vw;
+    width: 20vw;
     border: 1px solid black;
     border-radius: 50%;
-    line-height: 25vw;
+    line-height: 20vw;
 }
 
-.title-c {
-    height: 15vw;
-    width: 15vw;
-    line-height: 15vw;
+/* Postitioning individual circles */
+
+.title-circle {
+    height: 12vw;
+    width: 12vw;
+    line-height: 12vw;
     vertical-align: 2.5vw;
     margin-top: -2.5vw;
 }
 
-.browser-c {
-    margin: 0 -2.5vw -2.5vw 0;
-}
+.browser-circle { margin: 0 -2vw -2vw 0; }
+.dev-circle { margin: 0 0 -2.5vw -2vw; }
+.fe-circle, .db-circle { margin: -4vw; }
+.be-circle { margin-top: -4vw; }
 
-.dev-c {
-    margin: 0 0 -2.5vw -2.5vw;
-}
+/*Text Layer*/
 
-.fe-c, .db-c {
-    margin: -5vw;
-}
-
-.be-c {
-    margin-top: -5vw;
-}
-
-.skill-items {
+.skills-container {
     position: absolute;
+    top: 0;
     height: 100%;
     width: 100%;
-    border-radius: 50%;
-    background-color: blue;
-    margin: inherit;
+/*    border: 1px solid blue;*/
 }
+
+.skill-item{
+    position: absolute;
+    font-size: 100%;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+
+/*browser skill item positioning*/
+
+.skill-html5 { 
+    left: -1.6vw;
+    top: -8vw; 
+}
+.skill-css3 {
+    top: -1.6vw;
+    left: -6.4vw;
+}
+.skill-chrome-ext { top: -4.4vw; }
+.skill-javascript {
+    bottom: -6.4vw;
+    left: -2.4vw;
+}
+.skill-cpanel {
+    left: inherit;
+    right: -8vw;
+}
+
+/*developer tools skill item positioning*/
+
+.skill-webpack {
+    top: -4.8vw;
+    left: -3.2vw;
+}
+.skill-github {
+    top: -7.1vw;
+    left: 2vw;
+}
+.skill-cli {
+    bottom: -4vw;
+    left: -4vw;
+}
+.skill-mocha {
+    top: -3.2vw;
+    left: 4.8vw;
+}
+.skill-mamp {
+    bottom: -6.8vw;
+    left: 2vw;
+}
+
+/*frontend skill item positioning*/
+
+.skill-reactjs {
+    top: -4.8vw;
+    left: -4vw;
+}
+.skill-redux {
+    top: -3.2vw;
+    left: 4vw;
+}
+.skill-react-router {
+    bottom: -3vw;
+    left: -4vw;
+}
+.skill-jquery {
+    bottom: -6vw;
+}
+.skill-wordpress {
+    transform: rotate(-45deg);
+    bottom: -6vw;
+    left: 6.4vw;
+}
+
+/*database skill item positioning*/
+
+.skill-mongodb {
+    bottom: -4.8vw;
+    left: 2vw;
+}
+.skill-mysql {
+    top: -4vw;
+    left: 4vw;
+}
+.skill-expressjs {
+    transform: rotate(45deg);
+    bottom: -6vw;
+    left: -6.4vw;
+}
+
+/*backend skill item positioning*/
+
+.skill-nodejs { bottom: -5vw; }
+.skill-php { top: -5vw; }
 
 /*---------------------------------
   PORTFOLIO
