@@ -144,16 +144,24 @@ function startCircleAnimation() {
     $('.browser-circle').css({ opacity: '0.65' }).addClass("animated pulse");
     setTimeout( function () {
         $('.fe-circle').css({ opacity: '0.65' }).addClass("animated pulse");
-    }, 350);
+        $('.browser-circle .skills-container').css({ opacity: '1' });
+    }, 350);    
     setTimeout( function () {
         $('.be-circle').css({ opacity: '0.65' }).addClass("animated pulse");
+        $('.fe-circle .skills-container').css({ opacity: '1' });
     }, 700);
     setTimeout( function () {
         $('.db-circle').css({ opacity: '0.65' }).addClass("animated pulse");
+        $('.be-circle .skills-container').css({ opacity: '1' });
     }, 1050);
     setTimeout( function () {
         $('.dev-circle').css({ opacity: '0.65' }).addClass("animated pulse");
+        $('.db-circle .skills-container').css({ opacity: '1' });
     }, 1400);
+    setTimeout( function () {
+        $('.dev-circle .skills-container').css({ opacity: '1' });
+        $('.title-circle').css({ opacity: '0.65' }).addClass("animated pulse");
+    }, 1750);
 }
 
 

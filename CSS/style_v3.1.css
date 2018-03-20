@@ -275,8 +275,8 @@ h1 {
 ---------------------------------*/
 
 .skills {
-    background-color: rgba(2, 35, 65, 0.67);
-    height: 825px;
+    background-color: rgba(2, 35, 65, 0.5);
+    height: 58vw;
 }
 
 #skills-waypoint {
@@ -312,11 +312,11 @@ h1 {
     display: inline-block;
     height: 20vw;
     width: 20vw;
-    border: 1px solid black;
     border-radius: 50%;
     line-height: 20vw;
     opacity: 0;
-    z-index: 0;
+    color: white;
+    font-weight: 400;
 }
 
 /* Postitioning individual circles */
@@ -327,6 +327,7 @@ h1 {
     line-height: 12vw;
     vertical-align: 2.5vw;
     margin-top: -2.5vw;
+    background-color: #191919
 }
 
 .browser-circle { 
@@ -358,6 +359,9 @@ h1 {
     top: 0;
     height: 100%;
     width: 100%;
+    opacity: 0;
+    transition: opacity 0.35s;
+    font-weight: 300;
 /*    border: 1px solid blue;*/
 }
 
@@ -367,7 +371,7 @@ h1 {
     height: 100%;
     width: 100%;
     left: 0;
-    opacity: 1;
+    color: #dbdbdb;
 }
 
 /*browser skill item positioning*/
@@ -377,17 +381,16 @@ h1 {
     top: -8vw; 
 }
 .skill-css3 {
-    top: -1.6vw;
+    bottom: -1.6vw;
     left: -6.4vw;
 }
-.skill-chrome-ext { top: -4.4vw; }
+.skill-chrome-ext { top: -4.2vw; }
 .skill-javascript {
-    bottom: -6.4vw;
-    left: -2.4vw;
+    top: -7vw;
+    left: 2vw;
 }
 .skill-cpanel {
-    left: inherit;
-    right: -8vw;
+    left: -8vw;
 }
 
 /*developer tools skill item positioning*/
@@ -409,8 +412,8 @@ h1 {
     left: 4.8vw;
 }
 .skill-mamp {
-    bottom: -6.8vw;
-    left: 2vw;
+    top: -6.8vw;
+    left: -2vw;
 }
 
 /*frontend skill item positioning*/
@@ -432,8 +435,8 @@ h1 {
 }
 .skill-wordpress {
     transform: rotate(-45deg);
-    bottom: -6vw;
-    left: 6.4vw;
+    top: -6vw;
+    left: -6.4vw;
 }
 
 /*database skill item positioning*/
@@ -448,8 +451,8 @@ h1 {
 }
 .skill-expressjs {
     transform: rotate(45deg);
-    bottom: -6vw;
-    left: -6.4vw;
+    top: -6vw;
+    left: 6.4vw;
 }
 
 /*backend skill item positioning*/
