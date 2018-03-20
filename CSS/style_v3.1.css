@@ -275,7 +275,8 @@ h1 {
 ---------------------------------*/
 
 .skills {
-    background-color: #e3e3e3;
+    background-color: rgba(2, 35, 65, 0.67);
+    height: 825px;
 }
 
 #skills-waypoint {
@@ -314,6 +315,8 @@ h1 {
     border: 1px solid black;
     border-radius: 50%;
     line-height: 20vw;
+    opacity: 0;
+    z-index: 0;
 }
 
 /* Postitioning individual circles */
@@ -326,10 +329,27 @@ h1 {
     margin-top: -2.5vw;
 }
 
-.browser-circle { margin: 0 -2vw -2vw 0; }
-.dev-circle { margin: 0 0 -2.5vw -2vw; }
-.fe-circle, .db-circle { margin: -4vw; }
-.be-circle { margin-top: -4vw; }
+.browser-circle { 
+    margin: 0 -2vw -2vw 0; 
+    background-color: #B9697B;
+}
+.dev-circle { 
+    margin: 0 0 -2.5vw -2vw; 
+    background-color: #581300;
+}
+.fe-circle {
+    margin: -4vw; 
+    background-color: #4779A7;
+} 
+
+.db-circle { 
+    margin: -4vw;
+    background-color: #F17425;
+}
+.be-circle { 
+    margin-top: -4vw; 
+    background-color: #022341;
+}
 
 /*Text Layer*/
 
@@ -347,6 +367,7 @@ h1 {
     height: 100%;
     width: 100%;
     left: 0;
+    opacity: 1;
 }
 
 /*browser skill item positioning*/
@@ -681,6 +702,22 @@ ORIGINAL PROJECTS
     background-color: #7869BA;
     border-color: #7869BA;
 }
+
+/*--------Bird Brain ---------*/
+.birdbrain {
+    background-color: #762a17;
+}
+
+.birdbrain a:hover,
+.birdbrain a:active {
+    background-color: #c64e31;
+    border-color: #c64e31;
+}
+
+.birdbrain i {
+    right: 70px;
+}
+
 /*---------------------------------
   ABOUT ME
 ---------------------------------*/

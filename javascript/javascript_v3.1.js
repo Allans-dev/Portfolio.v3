@@ -133,11 +133,28 @@ SKILLS
 
 $('#skills').waypoint(function (direction){
         $('#skills-waypoint').css({opacity: '1'});
-        $('#skills-waypoint').addClass('animated bounceInUp');
+//        $('#skills-waypoint').addClass('animated bounceInUp');
+        startCircleAnimation();
     },{
     offset: 500
     }
 );
+    
+function startCircleAnimation() {
+    $('.browser-circle').css({ opacity: '0.65' }).addClass("animated pulse");
+    setTimeout( function () {
+        $('.fe-circle').css({ opacity: '0.65' }).addClass("animated pulse");
+    }, 350);
+    setTimeout( function () {
+        $('.be-circle').css({ opacity: '0.65' }).addClass("animated pulse");
+    }, 700);
+    setTimeout( function () {
+        $('.db-circle').css({ opacity: '0.65' }).addClass("animated pulse");
+    }, 1050);
+    setTimeout( function () {
+        $('.dev-circle').css({ opacity: '0.65' }).addClass("animated pulse");
+    }, 1400);
+}
 
 
 /*----------------------------
