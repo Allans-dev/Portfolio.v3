@@ -172,9 +172,10 @@ h1 {
 
 .h1Mid {
     top: 50%;
-    font-family: 'Sacramento', cursive;
+    /* font-family: 'Sacramento', cursive; */
     font-size: 500%;
-    height: 110px;
+    /* height: 110px; */
+    height: 150px;
 }
 
 .pitch-text-box {
